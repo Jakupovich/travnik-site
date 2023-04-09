@@ -313,14 +313,7 @@ body {
     color: #fff;
     font-size: calc(24px + 8 * (100vw / 1920));
 }    
-.lipa-title, .borac-title, .pirota-title{
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
-}
-.lipa-adresa{
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
-}
+
 @media only screen and (max-width: 320px) {
     .school-title{
         margin-top: 205px;
