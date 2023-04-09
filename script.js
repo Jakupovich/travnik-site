@@ -19,4 +19,14 @@ document.getElementById("secs").innerHTML = seconds + " Minuta&nbsp;"
 document.getElementById("sekunde").innerHTML = sekunde + " Sekundi&nbsp;" 
     
 
+if (timeleft < 0) {
+    clearInterval(myfunc);
+    document.getElementById("days").innerHTML = ""
+    document.getElementById("hours").innerHTML = "" 
+    document.getElementById("mins").innerHTML = ""
+    document.getElementById("secs").innerHTML = ""
+    document.getElementById("end").innerHTML = "TIME UP!!";
+}
+}, 1000);
+
 
