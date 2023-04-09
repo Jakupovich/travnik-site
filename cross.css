@@ -95,6 +95,7 @@
     }
 
     .upper-page {
+        margin-bottom: 200px;
         text-align: center;
     }
 
@@ -127,6 +128,7 @@
     }
 
     .about-text {
+        margin-bottom: 200px;
         padding-top: 50px;
         padding-right: 45px;
         width: 300px;
@@ -144,6 +146,7 @@
     }
 
     .upper-page {
+        margin-bottom: 200px;
         text-align: center;
     }
 
@@ -176,6 +179,7 @@
     }
 
     .about-text {
+        margin-bottom: 200px;
         padding-top: 50px;
         padding-right: 45px;
         width: 300px;
@@ -190,6 +194,7 @@
 @media only screen and (max-width: 425px) {
 
     .upper-page {
+        margin-bottom: 200px;
         text-align: center;
     }
 
@@ -222,6 +227,7 @@
     }
 
     .about-text {
+        margin-bottom: 200px;
         padding-top: 50px;
         padding-right: 45px;
         width: 300px;
