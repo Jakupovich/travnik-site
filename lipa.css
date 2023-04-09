@@ -314,7 +314,7 @@ header {
     }
     .futures-icons{
         flex-wrap: wrap;
-        margin-left: 35px;
+        margin-left: 0px;
     }
     #map{
         width: 320px;
@@ -375,7 +375,6 @@ header {
     }
     .futures-icons{
         flex-wrap: wrap;
-
         width: 320px;
     }
     #map{
