@@ -297,7 +297,7 @@ body {
 .pirota-title {
     font-family: "norda", sans-serif;
     color: #fff;
-    margin-top: 200px;
+    margin-top: 170px;
     font-size: calc(24px + 8 * (100vw / 1920));
 }
 
@@ -309,7 +309,7 @@ body {
 }
 .school-title{
     font-family: "norda", sans-serif;
-    margin-top: 220px;
+    margin-top: 243px;
     color: #fff;
     font-size: calc(24px + 8 * (100vw / 1920));
 }    
