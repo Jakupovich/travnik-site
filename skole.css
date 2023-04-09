@@ -60,7 +60,7 @@ body {
 
 .header-bg-img {
     position: absolute;
-    bottom: 85px;
+    bottom: 0;
     width: 100%;
 }
 
