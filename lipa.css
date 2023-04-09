@@ -237,6 +237,14 @@ header {
     margin-top: 90px;
 }
 @media only screen and (max-width: 320px) {
+    .header-inf-icons{
+        width: 40px;
+        height: 40px;
+    }
+    .fa-3x{
+        font-size: 2em;
+    }
+
     .futures-title{
         margin-left: 0px;
     }
@@ -245,7 +253,7 @@ header {
         margin-left: 0px;
     }
     #map{
-        width: 320px;
+        width: 320px;   
         margin-left: 0px;
         margin-bottom: 0px;
     }
@@ -267,7 +275,7 @@ header {
         display: none;
     }
     .header-inf{
-        margin-top: 800px;
+        margin-top: 600px;
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
@@ -288,6 +296,13 @@ header {
     }
 }
 @media only screen and (max-width: 375px) {
+    .header-inf-icons{
+        width: 40px;
+        height: 40px;
+    }
+    .fa-3x{
+        font-size: 2em;
+    }
     .futures-title{
         margin-left: 0px;
     }
@@ -318,7 +333,7 @@ header {
         display: none;
     }
     .header-inf{
-        margin-top: 800px;
+        margin-top: 600px;
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
@@ -339,6 +354,13 @@ header {
     }
 }
 @media only screen and (max-width: 425px) {
+    .header-inf-icons{
+        width: 40px;
+        height: 40px;
+    }
+    .fa-3x{
+        font-size: 2em;
+    }
     .futures-title{
         margin-left: 0px;
     }
@@ -369,7 +391,7 @@ header {
         display: none;
     }
     .header-inf{
-        margin-top: 800px;
+        margin-top: 600px;
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
