@@ -265,6 +265,24 @@ body {
     height: 300px;
     background-image: url("images/shemford-futuristic-school-siddhartha-nagar-35516290_555x300.jpg");
 }
+.borac-title{
+    font-family: "norda",sans-serif;
+    color: #fff;
+    margin-top: 200px; 
+    font-size: calc(24px + 8 * (100vw / 1920));
+}
+.pirota-title{
+    font-family: "norda",sans-serif;
+    color: #fff;
+    margin-top: 200px; 
+    font-size: calc(24px + 8 * (100vw / 1920));
+}
+.carsija-title{
+    font-family: "norda",sans-serif;
+    color: #fff;
+    margin-top: 230px;
+    font-size: calc(24px + 8 * (100vw / 1920));
+}
 @media only screen and (max-width: 320px) {
     body{
         width: 320px;
