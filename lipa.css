@@ -237,6 +237,9 @@ header {
     margin-top: 90px;
 }
 @media only screen and (max-width: 320px) {
+    .futures-parking{
+        margin-left: 0px;
+    }
     .header-inf-icons{
         width: 40px;
         height: 40px;
@@ -296,6 +299,9 @@ header {
     }
 }
 @media only screen and (max-width: 375px) {
+    .futures-parking{
+        margin-left: 0px;
+    }
     .header-inf-icons{
         width: 40px;
         height: 40px;
@@ -354,6 +360,9 @@ header {
     }
 }
 @media only screen and (max-width: 425px) {
+    .futures-parking{
+        margin-left: 0px;
+    }
     .header-inf-icons{
         width: 40px;
         height: 40px;
