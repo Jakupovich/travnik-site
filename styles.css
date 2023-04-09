@@ -309,11 +309,14 @@ body {
 }
 .school-title{
     font-family: "norda", sans-serif;
-    margin-top: 210px;
+    margin-top: 220px;
     color: #fff;
     font-size: calc(24px + 8 * (100vw / 1920));
 }    
 @media only screen and (max-width: 320px) {
+    .school-title{
+        margin-top: 205px;
+    }
     body {
         width: 320px;
     }
@@ -407,6 +410,9 @@ body {
 }
 
 @media only screen and (max-width: 375px) {
+    .school-title{
+        margin-top: 205px;
+    }
     body {
         width: 375px;
     }
@@ -498,6 +504,9 @@ body {
 }
 
 @media only screen and (max-width: 425px) {
+    .school-title{
+        margin-top: 205px;
+    }
 
     .location {
         width: 300px;
