@@ -176,7 +176,7 @@ body {
 .lipa-title{
     font-family: "norda",sans-serif;
     color: #fff;
-    margin-top: 220px;  
+    margin-top: 210px;  
     font-size: calc(24px + 8 * (100vw / 1920))
 }
 .lipa-adresa{
