@@ -1,58 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.upper-page{
+.upper-page {
     position: relative;
     background-image: url("images/kroser_1920x1080.jpg");
     height: 100vh;
-
     display: flex;
     flex-direction: column;
 
 }
-.planine{
+
+.planine {
     height: 110px;
     width: 100%;
     bottom: 0;
     position: absolute;
     background-image: url("images/planine.jpg");
 }
-@font-face{
+
+@font-face {
     font-family: "takosimijaka";
     src: url(fonts/Ubuntu-Bold.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: "norda";
     src: url(fonts/Quicksand-VariableFont_wght.ttf);
 }
-.upper-title{
-    font-family: "takosimijaka",sans-serif;
+
+.upper-title {
+    font-family: "takosimijaka", sans-serif;
     color: #EF3D10;
     font-size: 96px;
     padding-top: 250px;
     padding-left: 90px;
 }
-.upper-red{
+
+.upper-red {
     color: #fff;
 }
-.upper-undertitle{
-    font-family: "takosimijaka",sans-serif;
+
+.upper-undertitle {
+    font-family: "takosimijaka", sans-serif;
     font-size: 42px;
     color: #fff;
     padding-left: 90px;
 }
-.about-title{
-    font-family: "takosimijaka",sans-serif;
+
+.about-title {
+    font-family: "takosimijaka", sans-serif;
     padding-bottom: 15px;
     color: #3C3C3C;
-font-size: 38px;
+    font-size: 38px;
 }
-.about-txt{
+
+.about-txt {
     padding-left: 50px;
 }
-.about-cross{
+
+.about-cross {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
@@ -60,135 +68,166 @@ font-size: 38px;
     height: 600px;
     width: 100%;
 }
-.about-text{
+
+.about-text {
     height: 145px;
     width: 445px;
     font-size: 19px;
-    font-family: "norda",sans-serif;
+    font-family: "norda", sans-serif;
     font-weight: 400;
     line-height: 24px;
-    
+
 }
-.about-slika{
+
+.about-slika {
     width: 507px;
     height: 439px;
     padding-right: 50px;
 }
-.razmak{
-padding-bottom: 15px;
+
+.razmak {
+    padding-bottom: 15px;
 }
 
 @media only screen and (max-width: 320px) {
-    body{
+    body {
         width: 320px;
     }
-    .upper-page{
+
+    .upper-page {
         text-align: center;
     }
-    .upper-title{
+
+    .upper-title {
         padding-left: 0px;
         font-size: 58px;
     }
-    .upper-undertitle{
+
+    .upper-undertitle {
         padding-top: 50px;
         padding-left: 0px;
     }
-    .about-cross{
+
+    .about-cross {
         flex-direction: column-reverse;
     }
-    .about-slika{
+
+    .about-slika {
         width: 278px;
-    height: 278px;
-    padding-right: 0px;
+        height: 278px;
+        padding-right: 0px;
     }
-    .about-title{
+
+    .about-title {
         padding-top: 50px;
     }
-    .about-txt{
+
+    .about-txt {
         text-align: center;
     }
-    .about-text{
+
+    .about-text {
         padding-top: 50px;
         padding-right: 45px;
         width: 300px;
     }
-    #map{
+
+    #map {
         margin-top: 100px;
         margin-bottom: 50px;
     }
 }
+
 @media only screen and (max-width: 375px) {
-    body{
+    body {
         width: 375px;
     }
-    .upper-page{
+
+    .upper-page {
         text-align: center;
     }
-    .upper-title{
+
+    .upper-title {
         padding-left: 0px;
         font-size: 58px;
     }
-    .upper-undertitle{
+
+    .upper-undertitle {
         padding-top: 50px;
         padding-left: 0px;
     }
-    .about-cross{
+
+    .about-cross {
         flex-direction: column-reverse;
     }
-    .about-slika{
+
+    .about-slika {
         width: 278px;
-    height: 278px;
-    padding-right: 0px;
+        height: 278px;
+        padding-right: 0px;
     }
-    .about-title{
+
+    .about-title {
         padding-top: 50px;
     }
-    .about-txt{
+
+    .about-txt {
         text-align: center;
     }
-    .about-text{
+
+    .about-text {
         padding-top: 50px;
         padding-right: 45px;
         width: 300px;
     }
-    #map{
+
+    #map {
         margin-top: 100px;
         margin-bottom: 50px;
     }
 }
+
 @media only screen and (max-width: 425px) {
 
-    .upper-page{
+    .upper-page {
         text-align: center;
     }
-    .upper-title{
+
+    .upper-title {
         padding-left: 0px;
         font-size: 58px;
     }
-    .upper-undertitle{
+
+    .upper-undertitle {
         padding-top: 50px;
         padding-left: 0px;
     }
-    .about-cross{
+
+    .about-cross {
         flex-direction: column-reverse;
     }
-    .about-slika{
+
+    .about-slika {
         width: 278px;
-    height: 278px;
-    padding-right: 0px;
+        height: 278px;
+        padding-right: 0px;
     }
-    .about-title{
+
+    .about-title {
         padding-top: 50px;
     }
-    .about-txt{
+
+    .about-txt {
         text-align: center;
     }
-    .about-text{
+
+    .about-text {
         padding-top: 50px;
         padding-right: 45px;
         width: 300px;
     }
-    #map{
+
+    #map {
         margin-top: 100px;
         margin-bottom: 50px;
     }

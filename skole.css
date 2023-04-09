@@ -11,7 +11,8 @@ body {
     font-family: "shake";
     src: url(fonts/Caveat-VariableFont_wght.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: "norda";
     src: url(fonts/Quicksand-VariableFont_wght.ttf);
 }
@@ -66,7 +67,7 @@ body {
 .moving-balls {
     position: absolute;
     border-radius: 50%;
-    background-color:  rgb(0, 37, 117);
+    background-color: rgb(0, 37, 117);
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-delay: 0s;
@@ -88,6 +89,7 @@ body {
     left: 800px;
     animation-name: bouncing-ball2;
 }
+
 .moving-ball3 {
     width: 120px;
     height: 120px;
@@ -97,21 +99,36 @@ body {
 }
 
 @keyframes bouncing-ball1 {
-    0% {bottom: -30px;}
-    100% {bottom: -50px}
+    0% {
+        bottom: -30px;
+    }
+
+    100% {
+        bottom: -50px
+    }
 }
 
 @keyframes bouncing-ball2 {
-    0% {bottom: -80px;}
-    100% {bottom: -60px}
+    0% {
+        bottom: -80px;
+    }
+
+    100% {
+        bottom: -60px
+    }
 }
 
 @keyframes bouncing-ball3 {
-    0% {bottom: 20px;}
-    100% {bottom: 00px}
+    0% {
+        bottom: 20px;
+    }
+
+    100% {
+        bottom: 00px
+    }
 }
 
-.main-page {                    
+.main-page {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -141,7 +158,7 @@ body {
 }
 
 .divs1 {
-    background-color:  rgb(0, 37, 117);
+    background-color: rgb(0, 37, 117);
 }
 
 .txt3 {
@@ -164,6 +181,7 @@ body {
     width: 500px;
     height: 500px;
 }
+
 .second-page {
     display: flex;
     flex-direction: column;
@@ -191,10 +209,11 @@ body {
     display: flex;
     margin-bottom: 80px;
 }
-.section1{
 
-        display: flex;
-        margin-bottom: 80px;
+.section1 {
+
+    display: flex;
+    margin-bottom: 80px;
 
 }
 
@@ -235,7 +254,7 @@ body {
 
 .moving-ball4 {
     position: absolute;
-    background-color:  rgb(0, 37, 117);
+    background-color: rgb(0, 37, 117);
     width: 80px;
     height: 80px;
     animation-name: bouncing-ball4;
@@ -246,201 +265,257 @@ body {
 }
 
 @keyframes bouncing-ball4 {
-    0% {bottom: -100px;}
-    100% {bottom: -100px}
+    0% {
+        bottom: -100px;
+    }
+
+    100% {
+        bottom: -100px
+    }
 }
+
 @media only screen and (max-width: 320px) {
-    .header-inf{
+    .header-inf {
         width: 280px;
     }
-    .header-img{
-        display:none;
+
+    .header-img {
+        display: none;
     }
-    .txt1{
-        font-size:65px;
+
+    .txt1 {
+        font-size: 65px;
         text-align: center;
     }
-    .txt2{
-        font-size:21px;
+
+    .txt2 {
+        font-size: 21px;
         text-align: center;
     }
-    .image1{
-        display:none;
+
+    .image1 {
+        display: none;
     }
-    .moving-ball2{
-        display:none;
+
+    .moving-ball2 {
+        display: none;
     }
-    .inf-divs{
-        margin-right: 0px   ;
+
+    .inf-divs {
+        margin-right: 0px;
     }
-    .moving-ball1{
-        width:130px;    
-        height:130px;
-        left:190px;
+
+    .moving-ball1 {
+        width: 130px;
+        height: 130px;
+        left: 190px;
     }
-    .inf-divs{
-        width:260px
+
+    .inf-divs {
+        width: 260px
     }
-    .four-divs{
+
+    .four-divs {
         justify-content: center;
     }
-    .section{
-        flex-direction:column;
+
+    .section {
+        flex-direction: column;
     }
-    .section1{
+
+    .section1 {
         flex-direction: column-reverse;
     }
-    .moving-ball3{
+
+    .moving-ball3 {
         left: -25px;
     }
-    .circle-image{
-    margin-bottom: 50px;
-    width:250px;
-    height: 250px;
-    margin-right: 0px;
- }
- .txt-div{
-    width: 260px;
- }
- .second-page{
-    width: 320px;
-    padding-left: 0px;
-    padding-right: 0px;
- }
- .circle-image2{
-    margin-bottom: 50px;
-        width:250px;
-    height: 250px;
-    margin-left :0px;
- }
+
+    .circle-image {
+        margin-bottom: 50px;
+        width: 250px;
+        height: 250px;
+        margin-right: 0px;
+    }
+
+    .txt-div {
+        width: 260px;
+    }
+
+    .second-page {
+        width: 320px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .circle-image2 {
+        margin-bottom: 50px;
+        width: 250px;
+        height: 250px;
+        margin-left: 0px;
+    }
 }
+
 @media only screen and (max-width: 375px) {
-    .header-inf{
+    .header-inf {
         width: 280px;
     }
-    .header-img{
-        display:none;
+
+    .header-img {
+        display: none;
     }
-    .txt1{
-        font-size:65px;
+
+    .txt1 {
+        font-size: 65px;
         text-align: center;
     }
-    .txt2{
-        font-size:21px;
+
+    .txt2 {
+        font-size: 21px;
         text-align: center;
     }
-    .image1{
-        display:none;
+
+    .image1 {
+        display: none;
     }
-    .moving-ball2{
-        display:none;
+
+    .moving-ball2 {
+        display: none;
     }
-    .inf-divs{
-        margin-right: 0px   ;
+
+    .inf-divs {
+        margin-right: 0px;
     }
-    .moving-ball1{
-        width:130px;    
-        height:130px;
-        left:190px;
+
+    .moving-ball1 {
+        width: 130px;
+        height: 130px;
+        left: 190px;
     }
-    .inf-divs{
-        width:260px
+
+    .inf-divs {
+        width: 260px
     }
-    .four-divs{
+
+    .four-divs {
         justify-content: center;
     }
-    .section{
-        flex-direction:column;
+
+    .section {
+        flex-direction: column;
     }
-    .section1{
+
+    .section1 {
         flex-direction: column-reverse;
     }
-    .moving-ball3{
+
+    .moving-ball3 {
         left: -25px;
     }
-    .circle-image{
-    margin-bottom: 50px;
-    width:250px;
-    height: 250px;
-    margin-right: 0px;
- }
- .txt-div{
-    width: 260px;
- }
- .second-page{
-    width: 320px;
-    padding-left: 0px;
-    padding-right: 0px;
- }
- .circle-image2{
-    margin-bottom: 50px;
-        width:250px;
-    height: 250px;
-    margin-left :0px;
- }
+
+    .circle-image {
+        margin-bottom: 50px;
+        width: 250px;
+        height: 250px;
+        margin-right: 0px;
+    }
+
+    .txt-div {
+        width: 260px;
+    }
+
+    .second-page {
+        width: 320px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .circle-image2 {
+        margin-bottom: 50px;
+        width: 250px;
+        height: 250px;
+        margin-left: 0px;
+    }
 }
+
 @media only screen and (max-width: 425px) {
-    .header-inf{
+    .header-inf {
         width: 280px;
     }
-    .header-img{
-        display:none;
+
+    .header-img {
+        display: none;
     }
-    .txt1{
-        font-size:65px;
+
+    .txt1 {
+        font-size: 65px;
         text-align: center;
     }
-    .txt2{
-        font-size:21px;
+
+    .txt2 {
+        font-size: 21px;
         text-align: center;
     }
-    .image1{
-        display:none;
+
+    .image1 {
+        display: none;
     }
-    .moving-ball2{
-        display:none;
+
+    .moving-ball2 {
+        display: none;
     }
-    .inf-divs{
-        margin-right: 0px   ;
+
+    .inf-divs {
+        margin-right: 0px;
     }
-    .moving-ball1{
-        width:130px;    
-        height:130px;
-        left:190px;
+
+    .moving-ball1 {
+        width: 130px;
+        height: 130px;
+        left: 190px;
     }
-    .inf-divs{
-        width:260px
+
+    .inf-divs {
+        width: 260px
     }
-    .four-divs{
+
+    .four-divs {
         justify-content: center;
     }
-    .section{
-        flex-direction:column;
+
+    .section {
+        flex-direction: column;
     }
-    .section1{
+
+    .section1 {
         flex-direction: column-reverse;
     }
-    .moving-ball3{
+
+    .moving-ball3 {
         left: -25px;
     }
-    .circle-image{
-    margin-bottom: 50px;
-    width:250px;
-    height: 250px;
-    margin-right: 0px;
- }
- .txt-div{
-    width: 260px;
- }
- .second-page{
-    width: 320px;
-    padding-left: 0px;
-    padding-right: 0px;
- }
- .circle-image2{
-    margin-bottom: 50px;
-        width:250px;
-    height: 250px;
-    margin-left :0px;
- }
+
+    .circle-image {
+        margin-bottom: 50px;
+        width: 250px;
+        height: 250px;
+        margin-right: 0px;
+    }
+
+    .txt-div {
+        width: 260px;
+    }
+
+    .second-page {
+        width: 320px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .circle-image2 {
+        margin-bottom: 50px;
+        width: 250px;
+        height: 250px;
+        margin-left: 0px;
+    }
 }

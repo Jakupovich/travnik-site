@@ -90,10 +90,12 @@
     font-size: calc(14px + 2 * (100vw / 1920));
     color: #222222;
 }
-.gmap_canvas{
+
+.gmap_canvas {
     display: flex;
     justify-content: center;
 }
+
 #map {
     width: 720px;
     height: 420px;
@@ -233,190 +235,238 @@ header {
     background-repeat: no-repeat;
     background-image: url("images/borac_1920x1080.jpg");
 }
-.cross-text{
+
+.cross-text {
     margin-top: 90px;
 }
+
 @media only screen and (max-width: 320px) {
-    .futures-parking{
+    .futures-parking {
         margin-left: 0px;
     }
-    .header-inf-icons{
+
+    .header-inf-icons {
         width: 40px;
         height: 40px;
     }
-    .fa-3x{
+
+    .fa-3x {
         font-size: 2em;
     }
 
-    .futures-title{
+    .futures-title {
         margin-left: 0px;
     }
-    .futures-icons{
+
+    .futures-icons {
         flex-wrap: wrap;
         margin-left: 0px;
     }
-    #map{
-        width: 320px;   
+
+    #map {
+        width: 320px;
         margin-left: 0px;
         margin-bottom: 0px;
     }
-    .opis-text{
+
+    .opis-text {
         margin-left: 0px;
         width: 280px;
         margin-left: 25px;
     }
-    .header-inf{
+
+    .header-inf {
         flex-wrap: wrap;
     }
-    .header-inf-text1{
+
+    .header-inf-text1 {
         font-size: 13px;
     }
-    .header-inf-text2{
-       font-size: 10px;
+
+    .header-inf-text2 {
+        font-size: 10px;
     }
-    hr{
+
+    hr {
         display: none;
     }
-    .header-inf{
+
+    .header-inf {
         margin-top: 600px;
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
     }
-    .header-inf-section{
+
+    .header-inf-section {
         padding-bottom: 50px;
         width: auto;
     }
-    .header-text{
+
+    .header-text {
         font-size: 60px;
     }
-    .second-header-text{
+
+    .second-header-text {
         padding-top: 30px;
         font-size: 23px;
     }
-    hr{
+
+    hr {
         display: none;
     }
 }
+
 @media only screen and (max-width: 375px) {
-    .futures-parking{
+    .futures-parking {
         margin-left: 0px;
     }
-    .header-inf-icons{
+
+    .header-inf-icons {
         width: 40px;
         height: 40px;
     }
-    .fa-3x{
+
+    .fa-3x {
         font-size: 2em;
     }
-    .futures-title{
+
+    .futures-title {
         margin-left: 0px;
     }
-    .futures-icons{
+
+    .futures-icons {
         flex-wrap: wrap;
         margin-left: 0px;
     }
-    #map{
+
+    #map {
         width: 320px;
         margin-left: 0px;
         margin-bottom: 0px;
     }
-    .opis-text{
+
+    .opis-text {
         margin-left: 0px;
         width: 280px;
         margin-left: 25px;
     }
-    .header-inf{
+
+    .header-inf {
         flex-wrap: wrap;
     }
-    .header-inf-text1{
+
+    .header-inf-text1 {
         font-size: 13px;
     }
-    .header-inf-text2{
-       font-size: 10px;
+
+    .header-inf-text2 {
+        font-size: 10px;
     }
-    hr{
+
+    hr {
         display: none;
     }
-    .header-inf{
+
+    .header-inf {
         margin-top: 600px;
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
     }
-    .header-inf-section{
+
+    .header-inf-section {
         padding-bottom: 50px;
         width: auto;
     }
-    .header-text{
+
+    .header-text {
         font-size: 60px;
     }
-    .second-header-text{
+
+    .second-header-text {
         padding-top: 30px;
         font-size: 23px;
     }
-    hr{
+
+    hr {
         display: none;
     }
 }
+
 @media only screen and (max-width: 425px) {
-    .futures-parking{
+    .futures-parking {
         margin-left: 0px;
     }
-    .header-inf-icons{
+
+    .header-inf-icons {
         width: 40px;
         height: 40px;
     }
-    .fa-3x{
+
+    .fa-3x {
         font-size: 2em;
     }
-    .futures-title{
+
+    .futures-title {
         margin-left: 0px;
     }
-    .futures-icons{
+
+    .futures-icons {
         flex-wrap: wrap;
         width: 320px;
     }
-    #map{
+
+    #map {
         width: 320px;
         margin-left: 0px;
         margin-bottom: 0px;
     }
-    .opis-text{
+
+    .opis-text {
         margin-left: 0px;
         width: 280px;
         margin-left: 25px;
     }
-    .header-inf{
+
+    .header-inf {
         flex-wrap: wrap;
     }
-    .header-inf-text1{
+
+    .header-inf-text1 {
         font-size: 13px;
     }
-    .header-inf-text2{
-       font-size: 10px;
+
+    .header-inf-text2 {
+        font-size: 10px;
     }
-    hr{
+
+    hr {
         display: none;
     }
-    .header-inf{
+
+    .header-inf {
         margin-top: 600px;
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
     }
-    .header-inf-section{
+
+    .header-inf-section {
         padding-bottom: 50px;
         width: auto;
     }
-    .header-text{
+
+    .header-text {
         font-size: 60px;
     }
-    .second-header-text{
+
+    .second-header-text {
         padding-top: 30px;
         font-size: 23px;
     }
-    hr{
+
+    hr {
         display: none;
     }
 }
