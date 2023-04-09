@@ -287,3 +287,105 @@ header {
         display: none;
     }
 }
+@media only screen and (max-width: 375px) {
+    .futures-title{
+        margin-left: 0px;
+    }
+    .futures-icons{
+        flex-wrap: wrap;
+        margin-left: 35px;
+    }
+    #map{
+        width: 320px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .opis-text{
+        margin-left: 0px;
+        width: 280px;
+        margin-left: 25px;
+    }
+    .header-inf{
+        flex-wrap: wrap;
+    }
+    .header-inf-text1{
+        font-size: 13px;
+    }
+    .header-inf-text2{
+       font-size: 10px;
+    }
+    hr{
+        display: none;
+    }
+    .header-inf{
+        margin-top: 800px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    .header-inf-section{
+        padding-bottom: 50px;
+        width: auto;
+    }
+    .header-text{
+        font-size: 60px;
+    }
+    .second-header-text{
+        padding-top: 30px;
+        font-size: 23px;
+    }
+    hr{
+        display: none;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .futures-title{
+        margin-left: 0px;
+    }
+    .futures-icons{
+        flex-wrap: wrap;
+        margin-left: 35px;
+    }
+    #map{
+        width: 320px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .opis-text{
+        margin-left: 0px;
+        width: 280px;
+        margin-left: 25px;
+    }
+    .header-inf{
+        flex-wrap: wrap;
+    }
+    .header-inf-text1{
+        font-size: 13px;
+    }
+    .header-inf-text2{
+       font-size: 10px;
+    }
+    hr{
+        display: none;
+    }
+    .header-inf{
+        margin-top: 800px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    .header-inf-section{
+        padding-bottom: 50px;
+        width: auto;
+    }
+    .header-text{
+        font-size: 60px;
+    }
+    .second-header-text{
+        padding-top: 30px;
+        font-size: 23px;
+    }
+    hr{
+        display: none;
+    }
+}

@@ -121,3 +121,81 @@ padding-bottom: 15px;
         margin-bottom: 50px;
     }
 }
+@media only screen and (max-width: 375px) {
+    body{
+        width: 375px;
+    }
+    .upper-page{
+        text-align: center;
+    }
+    .upper-title{
+        padding-left: 0px;
+        font-size: 58px;
+    }
+    .upper-undertitle{
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    .about-cross{
+        flex-direction: column-reverse;
+    }
+    .about-slika{
+        width: 278px;
+    height: 278px;
+    padding-right: 0px;
+    }
+    .about-title{
+        padding-top: 50px;
+    }
+    .about-txt{
+        text-align: center;
+    }
+    .about-text{
+        padding-top: 50px;
+        padding-right: 45px;
+        width: 300px;
+    }
+    #map{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    body{
+        width: 425px;
+    }
+    .upper-page{
+        text-align: center;
+    }
+    .upper-title{
+        padding-left: 0px;
+        font-size: 58px;
+    }
+    .upper-undertitle{
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    .about-cross{
+        flex-direction: column-reverse;
+    }
+    .about-slika{
+        width: 278px;
+    height: 278px;
+    padding-right: 0px;
+    }
+    .about-title{
+        padding-top: 50px;
+    }
+    .about-txt{
+        text-align: center;
+    }
+    .about-text{
+        padding-top: 50px;
+        padding-right: 45px;
+        width: 300px;
+    }
+    #map{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}

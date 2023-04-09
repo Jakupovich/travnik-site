@@ -314,4 +314,133 @@ body {
     margin-left :0px;
  }
 }
-
+@media only screen and (max-width: 375px) {
+    .header-inf{
+        width: 280px;
+    }
+    .header-img{
+        display:none;
+    }
+    .txt1{
+        font-size:65px;
+        text-align: center;
+    }
+    .txt2{
+        font-size:21px;
+        text-align: center;
+    }
+    .image1{
+        display:none;
+    }
+    .moving-ball2{
+        display:none;
+    }
+    .inf-divs{
+        margin-right: 0px   ;
+    }
+    .moving-ball1{
+        width:130px;    
+        height:130px;
+        left:190px;
+    }
+    .inf-divs{
+        width:260px
+    }
+    .four-divs{
+        justify-content: center;
+    }
+    .section{
+        flex-direction:column;
+    }
+    .section1{
+        flex-direction: column-reverse;
+    }
+    .moving-ball3{
+        left: -25px;
+    }
+    .circle-image{
+    margin-bottom: 50px;
+    width:250px;
+    height: 250px;
+    margin-right: 0px;
+ }
+ .txt-div{
+    width: 260px;
+ }
+ .second-page{
+    width: 320px;
+    padding-left: 0px;
+    padding-right: 0px;
+ }
+ .circle-image2{
+    margin-bottom: 50px;
+        width:250px;
+    height: 250px;
+    margin-left :0px;
+ }
+}
+@media only screen and (max-width: 425px) {
+    .header-inf{
+        width: 280px;
+    }
+    .header-img{
+        display:none;
+    }
+    .txt1{
+        font-size:65px;
+        text-align: center;
+    }
+    .txt2{
+        font-size:21px;
+        text-align: center;
+    }
+    .image1{
+        display:none;
+    }
+    .moving-ball2{
+        display:none;
+    }
+    .inf-divs{
+        margin-right: 0px   ;
+    }
+    .moving-ball1{
+        width:130px;    
+        height:130px;
+        left:190px;
+    }
+    .inf-divs{
+        width:260px
+    }
+    .four-divs{
+        justify-content: center;
+    }
+    .section{
+        flex-direction:column;
+    }
+    .section1{
+        flex-direction: column-reverse;
+    }
+    .moving-ball3{
+        left: -25px;
+    }
+    .circle-image{
+    margin-bottom: 50px;
+    width:250px;
+    height: 250px;
+    margin-right: 0px;
+ }
+ .txt-div{
+    width: 260px;
+ }
+ .second-page{
+    width: 320px;
+    padding-left: 0px;
+    padding-right: 0px;
+ }
+ .circle-image2{
+    margin-bottom: 50px;
+        width:250px;
+    height: 250px;
+    margin-left :0px;
+ }
+}
