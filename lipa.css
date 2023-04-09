@@ -32,7 +32,7 @@
 .futures-container {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
 }
 
 .futures-title {
@@ -44,7 +44,7 @@
 
 .futures-icons {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -366,7 +366,8 @@ header {
     }
     .futures-icons{
         flex-wrap: wrap;
-        margin-left: 35px;
+
+        width: 320px;
     }
     #map{
         width: 320px;
