@@ -1,0 +1,530 @@
+body {
+    margin: 0px;
+    cursor: default;
+}
+
+* {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "shake";
+    src: url(fonts/Caveat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "norda";
+    src: url(fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-top: 70px;
+    box-sizing: border-box;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-bottom: 221px;
+    background-color: rgb(255, 106, 0);
+
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+}
+
+.header-inf {
+    width: 700px;
+}
+
+.txt1 {
+    font-size: 80px;
+    color: rgb(0, 27, 86);
+    font-weight: bold;
+    font-family: shake;
+    margin-bottom: 10px;
+}
+
+.txt2 {
+    font-size: 23px;
+    color: white;
+    font-family: norda;
+}
+
+.header-img {
+    width: 600px;
+    height: 430px;
+}
+
+.header-bg-img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.moving-balls {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(0, 37, 117);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+
+.moving-ball1 {
+    width: 160px;
+    height: 160px;
+    bottom: -50px;
+    left: 250px;
+    animation-name: bouncing-ball1;
+}
+
+.moving-ball2 {
+    width: 100px;
+    height: 100px;
+    bottom: -150px;
+    left: 800px;
+    animation-name: bouncing-ball2;
+}
+
+.moving-ball3 {
+    width: 120px;
+    height: 120px;
+    bottom: 0px;
+    right: 50px;
+    animation-name: bouncing-ball3;
+}
+
+@keyframes bouncing-ball1 {
+    0% {
+        bottom: -30px;
+    }
+
+    100% {
+        bottom: -50px
+    }
+}
+
+@keyframes bouncing-ball2 {
+    0% {
+        bottom: -80px;
+    }
+
+    100% {
+        bottom: -60px
+    }
+}
+
+@keyframes bouncing-ball3 {
+    0% {
+        bottom: 20px;
+    }
+
+    100% {
+        bottom: 00px
+    }
+}
+
+.main-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.four-divs {
+    margin-top: 50px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inf-divs {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    background-color: rgb(255, 106, 0);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.divs1 {
+    background-color: rgb(0, 37, 117);
+}
+
+.txt3 {
+    color: white;
+    font-weight: bold;
+    font-family: norda;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.txt4 {
+    color: white;
+    font-family: norda;
+    font-size: 17px;
+    text-align: center;
+}
+
+.image1 {
+    width: 500px;
+    height: 500px;
+}
+
+.second-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: norda;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.hr1 {
+    width: 250px;
+    color: black;
+    margin-bottom: 100px;
+}
+
+.section {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.section1 {
+
+    display: flex;
+    margin-bottom: 80px;
+
+}
+
+.circle-image {
+    width: 400px;
+    height: 400px;
+    margin-right: 100px;
+    border-radius: 50%;
+}
+
+.circle-image2 {
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.txt-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.txt5 {
+    font-size: 35px;
+    font-family: norda;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.txt6 {
+    font-size: 20px;
+    font-family: norda;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: rgb(83, 83, 83);
+}
+
+.moving-ball4 {
+    position: absolute;
+    background-color: rgb(0, 37, 117);
+    width: 80px;
+    height: 80px;
+    animation-name: bouncing-ball4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bouncing-ball4 {
+    0% {
+        bottom: -100px;
+    }
+
+    100% {
+        bottom: -100px
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .header{
+        height: 85vh;
+    }
+    .header-inf {
+        width: 280px;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .txt1 {
+        font-size: 65px;
+        text-align: center;
+    }
+
+    .txt2 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .image1 {
+        display: none;
+    }
+
+    .moving-ball2 {
+        display: none;
+    }
+
+    .inf-divs {
+        margin-right: 0px;
+    }
+
+    .moving-ball1 {
+        width: 130px;
+        height: 130px;
+        left: 190px;
+    }
+
+    .inf-divs {
+        width: 260px
+    }
+
+    .four-divs {
+        justify-content: center;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .section1 {
+        flex-direction: column-reverse;
+    }
+
+    .moving-ball3 {
+        left: -25px;
+    }
+
+    .circle-image {
+        margin-bottom: 50px;
+        width: 250px;
+        height: 250px;
+        margin-right: 0px;
+    }
+
+    .txt-div {
+        width: 260px;
+    }
+
+    .second-page {
+        width: 320px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .circle-image2 {
+        margin-bottom: 50px;
+        width: 250px;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .header{
+        height: 85vh;
+    }
+    .header-inf {
+        width: 280px;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .txt1 {
+        font-size: 65px;
+        text-align: center;
+    }
+
+    .txt2 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .image1 {
+        display: none;
+    }
+
+    .moving-ball2 {
+        display: none;
+    }
+
+    .inf-divs {
+        margin-right: 0px;
+    }
+
+    .moving-ball1 {
+        width: 130px;
+        height: 130px;
+        left: 190px;
+    }
+
+    .inf-divs {
+        width: 260px
+    }
+
+    .four-divs {
+        justify-content: center;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .section1 {
+        flex-direction: column-reverse;
+    }
+
+    .moving-ball3 {
+        left: -25px;
+    }
+
+    .circle-image {
+        margin-bottom: 50px;
+        width: 250px;
+        height: 250px;
+        margin-right: 0px;
+    }
+
+    .txt-div {
+        width: 260px;
+    }
+
+    .second-page {
+        width: 320px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .circle-image2 {
+        margin-bottom: 50px;
+        width: 250px;
+        height: 250px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .header{
+        height: 85vh;
+    }
+    .header-inf {
+        width: 280px;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .txt1 {
+        font-size: 65px;
+        text-align: center;
+    }
+
+    .txt2 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .image1 {
+        display: none;
+    }
+
+    .moving-ball2 {
+        display: none;
+    }
+
+    .inf-divs {
+        margin-right: 0px;
+    }
+
+    .moving-ball1 {
+        width: 130px;
+        height: 130px;
+        left: 190px;
+    }
+
+    .inf-divs {
+        width: 260px
+    }
+
+    .four-divs {
+        justify-content: center;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .section1 {
+        flex-direction: column-reverse;
+    }
+
+    .moving-ball3 {
+        left: -25px;
+    }
+
+    .circle-image {
+        margin-bottom: 50px;
+        width: 250px;
+        height: 250px;
+        margin-right: 0px;
+    }
+
+    .txt-div {
+        width: 260px;
+    }
+
+    .second-page {
+        width: 320px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .circle-image2 {
+        margin-bottom: 50px;
+        width: 250px;
+        height: 250px;
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    font-family: arial;
+    padding: 0px;
+}
+
+.upper-page {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.newconceptliving.ro/images/diverse/Untitled%20design%20(7)(2).jpg");
+    background-size: 100% 100vh;
+}
+
+.header-img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+}
+
+.header-text {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.second-header-text {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header-inf {
+    display: flex;
+}
+
+.header-inf-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+}
+
+.header-inf-icons {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.header-inf-text1 {
+    color: white;
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.header-inf-text2 {
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+}
